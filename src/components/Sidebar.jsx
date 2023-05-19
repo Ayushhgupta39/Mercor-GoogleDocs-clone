@@ -1,0 +1,55 @@
+import { Box, Flex, Icon, Image, VStack } from "@chakra-ui/react";
+import React from "react";
+import { MdAdd, MdOutlineArrowForwardIos } from "react-icons/md";
+
+export default function Sidebar() {
+  return (
+    <Flex flexDirection={"column"}>
+      <VStack spacing={"12"}>
+        <Box mt={"3"}>
+          <Image
+          cursor={"pointer"}
+            boxSize={"6"}
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/1024px-Google_Calendar_icon_%282020%29.svg.png"
+          />
+        </Box>
+        <Box>
+          <Image
+          cursor={"pointer"}
+            boxSize={"6"}
+            src="https://cdn-icons-png.flaticon.com/512/2965/2965358.png"
+          />
+        </Box>
+        <Box>
+          <Image
+          cursor={"pointer"}
+            boxSize={"6"}
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Tasks_2021.svg/1200px-Google_Tasks_2021.svg.png"
+          />
+        </Box>
+        <Box>
+          <Image
+          cursor={"pointer"}
+            boxSize={"6"}
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Contacts_icon.svg/1200px-Google_Contacts_icon.svg.png"
+          />
+        </Box>
+        <Box>
+          <Image
+          cursor={"pointer"}
+            boxSize={"6"}
+            src="https://cdn-icons-png.flaticon.com/512/355/355980.png"
+          />
+        </Box>
+
+        <Box>
+            <Icon cursor={"pointer"} boxSize={"6"} as={MdAdd} />
+        </Box>
+
+        <Box>
+            <Icon cursor={"pointer"} as={MdOutlineArrowForwardIos} />
+        </Box>
+      </VStack>
+    </Flex>
+  );
+}
