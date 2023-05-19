@@ -43,7 +43,7 @@ The Mercor Google Docs Clone project utilizes the following technologies:
 
 ## Deployment
 
-The Mercor Google Docs Clone is deployed on Vercel. You can access the deployed application by visiting [https://mercor-google-docs-clone.vercel.app/](https://mercor-google-docs-clone.vercel.app//).
+The Mercor Google Docs Clone is deployed on Netlify. You can access the deployed application by visiting [https://mercor-docs-clone1.netlify.app/](https://mercor-docs-clone1.netlify.app/).
 
 ## Contributing
 Contributions to Mercor Google Docs Clone are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the GitHub repository.
