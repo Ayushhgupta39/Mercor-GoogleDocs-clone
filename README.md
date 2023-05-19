@@ -1,71 +1,52 @@
-# Getting Started with Create React App
+# Mercor Google Docs Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mercor Google Docs Clone is a web application that replicates some of the functionalities of Google Docs. It provides a collaborative text editing environment with a toolbar and sidebar.
 
-## Available Scripts
+## Components
 
-In the project directory, you can run:
+- **Text Editor**: The text editor component allows users to create, edit, and format text content. It provides basic text editing capabilities such as typing, selecting, and deleting text.
 
-### `npm start`
+- **Toolbar**: The toolbar component displays various formatting options to style the text. It includes buttons for features like bold, italic, underline, font styles, alignment, and more. Users can apply these formatting options to the selected text in the editor.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Sidebar**: The sidebar component provides additional functionality for the text editor. It includes links to other Google Apps such as Google calendar, Keep notes, Tasks, contacts and google Maps.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the Mercor Google Docs Clone locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```shell
+   git clone https://github.com/Ayushhgupta39/Mercor-GoogleDocs-clone.git
+   ```
+   
+2. Navigate to the project directory:
+   ```shell
+   cd Mercor-GoogleDocs-clone
+   ```
+3. Install the dependencies:
+   ```shell
+   npm install
+   ```
+4. Start the development server:
+   ```shell
+   npm start
+   ```
+5. Open your browser and visit http://localhost:3000 to see the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Mercor Google Docs Clone project utilizes the following technologies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React.js: A JavaScript library for building user interfaces.
+- Chakra UI: A component library for styling and UI design.
 
-### `npm run eject`
+## Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Mercor Google Docs Clone is deployed on Netlify. You can access the deployed application by visiting [https://mercor-docs-clone1.netlify.app/](https://mercor-docs-clone1.netlify.app/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+Contributions to Mercor Google Docs Clone are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the GitHub repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Mercor-GoogleDocs-clone
