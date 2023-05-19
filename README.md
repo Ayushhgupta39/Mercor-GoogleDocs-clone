@@ -41,10 +41,6 @@ The Mercor Google Docs Clone project utilizes the following technologies:
 - React.js: A JavaScript library for building user interfaces.
 - Chakra UI: A component library for styling and UI design.
 
-## Deployment
-
-The Mercor Google Docs Clone is deployed on Netlify. You can access the deployed application by visiting [https://mercor-docs-clone1.netlify.app/](https://mercor-docs-clone1.netlify.app/).
-
 ## Contributing
 Contributions to Mercor Google Docs Clone are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the GitHub repository.
 
