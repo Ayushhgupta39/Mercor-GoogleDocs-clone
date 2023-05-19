@@ -14,7 +14,7 @@ export default function Sidebar() {
             <Image
               cursor={"pointer"}
               boxSize={"6"}
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/1024px-Google_Calendar_icon_%282020%29.svg.png"
+              src=""
             />
           </Link>
         </Box>
@@ -23,7 +23,7 @@ export default function Sidebar() {
             <Image
               cursor={"pointer"}
               boxSize={"6"}
-              src="https://cdn-icons-png.flaticon.com/512/2965/2965358.png"
+              src=""
             />
           </Link>
         </Box>
@@ -32,7 +32,7 @@ export default function Sidebar() {
             <Image
               cursor={"pointer"}
               boxSize={"6"}
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Tasks_2021.svg/1200px-Google_Tasks_2021.svg.png"
+              src=""
             />
           </Link>
         </Box>
@@ -41,7 +41,7 @@ export default function Sidebar() {
             <Image
               cursor={"pointer"}
               boxSize={"6"}
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Contacts_icon.svg/1200px-Google_Contacts_icon.svg.png"
+              src=""
             />
           </Link>
         </Box>
@@ -50,7 +50,7 @@ export default function Sidebar() {
             <Image
               cursor={"pointer"}
               boxSize={"6"}
-              src="https://cdn-icons-png.flaticon.com/512/355/355980.png"
+              src=""
             />
           </Link>
         </Box>
