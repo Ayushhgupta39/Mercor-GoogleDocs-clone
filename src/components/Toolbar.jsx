@@ -30,15 +30,51 @@ export default function Toolbar() {
       justifyContent={"space-between"}
       alignItems={"center"}
     >
-      <Icon boxSize={"5"} cursor={"pointer"} as={BiUndo} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={BiRedo} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdOutlineLocalPrintshop} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdOutlineSpellcheck} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdOutlineImagesearchRoller} />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={BiUndo}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={BiRedo}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdOutlineLocalPrintshop}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdOutlineSpellcheck}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdOutlineImagesearchRoller}
+      />
 
       <Flex alignItems={"center"}>
         <Text p={"1"}>100%</Text>
-        <Icon boxSize={"5"} cursor={"pointer"} as={MdArrowDropDown} />
+        <Icon
+          borderRadius={"md"}
+          _hover={{ bgColor: "gray.300" }}
+          boxSize={"5"}
+          cursor={"pointer"}
+          as={MdArrowDropDown}
+        />
       </Flex>
 
       <Box
@@ -51,7 +87,12 @@ export default function Toolbar() {
 
       <Flex alignItems={"center"}>
         <Text>Normal text</Text>
-        <Icon boxSize={"6"} as={MdArrowDropDown} />
+        <Icon
+          borderRadius={"md"}
+          _hover={{ bgColor: "gray.300" }}
+          boxSize={"6"}
+          as={MdArrowDropDown}
+        />
       </Flex>
 
       <Box
@@ -64,7 +105,13 @@ export default function Toolbar() {
 
       <Flex alignItems={"center"}>
         <Text>Arial</Text>
-        <Icon boxSize={"5"} cursor={"pointer"} as={MdArrowDropDown} />
+        <Icon
+          borderRadius={"md"}
+          _hover={{ bgColor: "gray.300" }}
+          boxSize={"5"}
+          cursor={"pointer"}
+          as={MdArrowDropDown}
+        />
       </Flex>
 
       <Box
@@ -76,11 +123,23 @@ export default function Toolbar() {
       />
 
       <Flex alignItems={"center"}>
-        <Icon boxSize={"5"} cursor={"pointer"} as={MdRemove} />
+        <Icon
+          borderRadius={"md"}
+          _hover={{ bgColor: "gray.300" }}
+          boxSize={"5"}
+          cursor={"pointer"}
+          as={MdRemove}
+        />
         <Box mx={"2"} px={"2"} border={"1px"} borderRadius={"lg"}>
           <Text>11</Text>
         </Box>
-        <Icon boxSize={"5"} cursor={"pointer"} as={MdAdd} />
+        <Icon
+          borderRadius={"md"}
+          _hover={{ bgColor: "gray.300" }}
+          boxSize={"5"}
+          cursor={"pointer"}
+          as={MdAdd}
+        />
       </Flex>
 
       <Box
@@ -91,10 +150,34 @@ export default function Toolbar() {
         height="20px"
       />
 
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdFormatBold} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdFormatItalic} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdFormatUnderlined} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={BiHighlight} />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdFormatBold}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdFormatItalic}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdFormatUnderlined}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={BiHighlight}
+      />
 
       <Box
         as="span"
@@ -104,9 +187,27 @@ export default function Toolbar() {
         height="20px"
       />
 
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdOutlineInsertLink} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdOutlineAddComment} />
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdOutlinePhoto} />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdOutlineInsertLink}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdOutlineAddComment}
+      />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdOutlinePhoto}
+      />
 
       <Box
         as="span"
@@ -117,19 +218,55 @@ export default function Toolbar() {
       />
 
       <Flex>
-      <Flex>
-        <Icon boxSize={"5"} cursor={"pointer"} as={MdFormatAlignLeft} />
-        <Icon boxSize={"5"} cursor={"pointer"} as={MdArrowDropDown} />
+        <Flex>
+          <Icon
+            borderRadius={"md"}
+            _hover={{ bgColor: "gray.300" }}
+            boxSize={"5"}
+            cursor={"pointer"}
+            as={MdFormatAlignLeft}
+          />
+          <Icon
+            borderRadius={"md"}
+            _hover={{ bgColor: "gray.300" }}
+            boxSize={"5"}
+            cursor={"pointer"}
+            as={MdArrowDropDown}
+          />
+        </Flex>
+
+        <Icon
+          borderRadius={"md"}
+          _hover={{ bgColor: "gray.300" }}
+          boxSize={"5"}
+          cursor={"pointer"}
+          as={MdOutlineMoreVert}
+        />
       </Flex>
 
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdOutlineMoreVert} />
-      </Flex>
-
       <Flex>
-        <Icon boxSize={"5"} cursor={"pointer"} as={MdOutlineMode} />
-        <Icon boxSize={"5"} cursor={"pointer"} as={MdArrowDropDown} />
+        <Icon
+          borderRadius={"md"}
+          _hover={{ bgColor: "gray.300" }}
+          boxSize={"5"}
+          cursor={"pointer"}
+          as={MdOutlineMode}
+        />
+        <Icon
+          borderRadius={"md"}
+          _hover={{ bgColor: "gray.300" }}
+          boxSize={"5"}
+          cursor={"pointer"}
+          as={MdArrowDropDown}
+        />
       </Flex>
-      <Icon boxSize={"5"} cursor={"pointer"} as={MdKeyboardArrowUp} />
+      <Icon
+        borderRadius={"md"}
+        _hover={{ bgColor: "gray.300" }}
+        boxSize={"5"}
+        cursor={"pointer"}
+        as={MdKeyboardArrowUp}
+      />
     </Flex>
   );
 }

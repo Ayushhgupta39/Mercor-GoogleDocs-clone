@@ -41,24 +41,30 @@ export default function Header() {
             >
               Untitled document
             </Text>
-            <Flex alignItems={"center"} px={"3"}>
+            <Flex cursor={"pointer"} alignItems={"center"} px={"3"}>
               <Icon
                 color={"#44494E"}
                 mx={"1"}
                 boxSize={"5"}
                 as={MdStarBorder}
+                borderRadius={"full"}
+                _hover={{ bgColor: "gray.100" }}
               />
               <Icon
                 color={"#44494E"}
                 mx={"1"}
                 boxSize={"5"}
                 as={MdDriveFileMoveOutline}
+                borderRadius={"full"}
+                _hover={{ bgColor: "gray.100" }}
               />
               <Icon
                 color={"#44494E"}
                 mx={"1"}
                 boxSize={"5"}
                 as={MdOutlineCloudDone}
+                borderRadius={"full"}
+                _hover={{ bgColor: "gray.100" }}
               />
             </Flex>
           </Flex>
@@ -69,30 +75,99 @@ export default function Header() {
               listStyleType={"none"}
               display={"flex"}
             >
-              <ListItem px={"2"}>File</ListItem>
-              <ListItem px={"2"}>Edit</ListItem>
-              <ListItem px={"2"}>View</ListItem>
-              <ListItem px={"2"}>Insert</ListItem>
-              <ListItem px={"2"}>Format</ListItem>
-              <ListItem px={"2"}>Tools</ListItem>
-              <ListItem px={"2"}>Extensions</ListItem>
-              <ListItem px={"2"}>Help</ListItem>
+              <ListItem
+                borderRadius={"md"}
+                _hover={{ bgColor: "gray.100" }}
+                px={"2"}
+              >
+                File
+              </ListItem>
+              <ListItem
+                borderRadius={"md"}
+                _hover={{ bgColor: "gray.100" }}
+                px={"2"}
+              >
+                Edit
+              </ListItem>
+              <ListItem
+                borderRadius={"md"}
+                _hover={{ bgColor: "gray.100" }}
+                px={"2"}
+              >
+                View
+              </ListItem>
+              <ListItem
+                borderRadius={"md"}
+                _hover={{ bgColor: "gray.100" }}
+                px={"2"}
+              >
+                Insert
+              </ListItem>
+              <ListItem
+                borderRadius={"md"}
+                _hover={{ bgColor: "gray.100" }}
+                px={"2"}
+              >
+                Format
+              </ListItem>
+              <ListItem
+                borderRadius={"md"}
+                _hover={{ bgColor: "gray.100" }}
+                px={"2"}
+              >
+                Tools
+              </ListItem>
+              <ListItem
+                borderRadius={"md"}
+                _hover={{ bgColor: "gray.100" }}
+                px={"2"}
+              >
+                Extensions
+              </ListItem>
+              <ListItem
+                borderRadius={"md"}
+                _hover={{ bgColor: "gray.100" }}
+                px={"2"}
+              >
+                Help
+              </ListItem>
             </UnorderedList>
           </Flex>
         </Flex>
       </Flex>
       <Flex>
         <Flex alignItems={"center"} className="meet">
-          <Box mx={"3"}>
+          <Flex
+            alignItems={"center"}
+            justifyContent={"center"}
+            boxSize={"14"}
+            borderRadius={"full"}
+            _hover={{ bgColor: "gray.100", cursor: "pointer" }}
+            mx={"1"}
+          >
             <Icon color={"#44494E"} boxSize={"7"} as={MdRestore} />
-          </Box>
-          <Box mx={"3"}>
+          </Flex>
+          <Flex
+            alignItems={"center"}
+            justifyContent={"center"}
+            boxSize={"14"}
+            borderRadius={"full"}
+            _hover={{ bgColor: "gray.100", cursor: "pointer" }}
+            mx={"1"}
+          >
             <Icon color={"#44494E"} boxSize={"7"} as={MdOutlineComment} />
-          </Box>
-          <Box mx={"3"}>
+          </Flex>
+          <Flex
+            alignItems={"center"}
+            justifyContent={"center"}
+            boxSize={"14"}
+            borderRadius={"full"}
+            _hover={{ bgColor: "gray.100", cursor: "pointer" }}
+            mx={"1"}
+          >
             <Icon color={"#44494E"} boxSize={"7"} as={MdOutlineVideoCall} />
             <Icon color={"#44494E"} boxSize={"7"} as={MdArrowDropDown} />
-          </Box>
+          </Flex>
           <Box mx={"3"}>
             <Button
               color={"#001d35"}
@@ -102,6 +177,7 @@ export default function Header() {
               bgColor={"#c2e7ff"}
               font
               leftIcon={<MdLockOutline />}
+              _hover={{ boxShadow: "dark-lg" }}
             >
               Share
             </Button>
